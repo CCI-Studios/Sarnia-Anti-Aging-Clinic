@@ -1,0 +1,682 @@
+
+@media screen and (max-width:1140px)
+{
+	.view-banner-slider
+	{	
+ 	 .views-row-2
+ 	 {
+ 	 	background-image:url('../images/SarniaAntiAging-TabletLandscape-Halo.jpg'); 	
+ 	 }
+
+   	.views-row-3
+ 	 {
+ 	 	background-image:url('../images/SarniaAntiAging-HeaderLandscape-Vanquish.jpg');
+ 	 	background-position:0%;
+ 	 }
+
+ 	.views-row-4
+ 	 {
+ 	 	background-image:url('../images/SarniaAntiAging-Header-TabletLandscape.jpg');
+ 	 }
+
+ 	}
+ 	
+}
+
+@media screen and (min-width:1031px)
+{
+	#top-menu
+	{
+		display: block!important;
+	}
+
+	#block-menu-menu-footer-menu
+	{
+		display: none;
+	}	
+}
+
+@media screen and (max-width:1030px)
+{	
+
+	.view-before-and-after-images
+	{
+		margin: 0 auto;
+	}
+
+
+	#banner h2
+	{
+		font-size: 36px;
+	}
+
+	.region-header
+	{
+		max-width: 100%;
+	}
+	#service-region .views-row
+	{
+		 width: calc(33.36% - 2px);
+	}
+
+	.not-front #banner,
+	.not-front .sidebar
+	{
+		display: none;
+	}
+
+	.not-front #content
+	{
+		border-top:0px;
+	}
+
+	.view-youtube-videos .views-row
+	{
+		padding-right:20px;
+		width:318px ;
+
+		iframe
+		{
+			width:318px!important;
+		}
+	}
+
+	.page-taxonomy .content-right, .page-taxonomy .region-content
+	{
+		float: none;
+		width:100%;
+		padding-left:0px;
+	}
+
+	#services-menu-item
+	{
+		display: block;
+	}
+
+	#search-bottom
+	{
+		max-width: 300px;
+		margin: 0 auto;
+
+		.block-search-form
+		{
+			bottom:0px;
+		}
+	}
+
+	#footer-inner
+	{
+		padding:20px 10px;
+	}
+
+	#top-menu
+	{
+		display: none;
+		-webkit-transition:transform 1s;
+	}
+
+	#block-block-9
+	{
+		display: block;
+		max-width: 100px;
+		margin: 0 auto;
+		height: 24px;
+		margin-top:10px;
+		text-align: right;
+	}
+
+
+	#top-menu.hide
+	{	
+		transform:translateX(-200%);
+		transition:transform 0.5s;
+		-webkit-transform:translateX(-200%);
+		-moz-transform:translateX(-200%);
+		-webkit-transition:transform 0.5s;
+		-moz-transition:transform 0.5s;
+	}
+
+	#block-block-10
+	{	
+		position:relative;
+
+		.contextual-links-region
+		{
+			position:static;
+		}
+
+		&.border-menu
+		{
+			border-top:3px solid $gold;
+			margin-top: 20px;
+		}
+		
+	}
+
+	#block-block-10 #block-menu-menu-footer-menu
+	{	
+		position: relative;
+		display: block;
+		position: absolute;
+		left:0;
+		padding-top:0px;
+		transform:translate(-200%);
+		transition:transform 0.2s;
+		-webkit-transform:translate(-200%);
+		-moz-transform:translate(-200%);
+		-moz-transition:transform 0.2s;
+		-webkit-transition:transform 0.2s;
+		ul.menu 
+		{	
+			text-align:left;
+			position: relative;
+			li
+			{
+				display: block;
+				padding:10px 10px;
+			}
+
+			a:hover
+			{
+				border-bottom:0px;
+
+			}	
+
+			a
+			{
+				font-size: 18px;
+				padding:10px;
+				//display: block;
+			}
+
+			&>li.expanded > ul.menu
+			{
+				position: absolute;
+				left:0;
+				top:0;
+				transform:translateX(-200%);
+				transition:transform 0.5s;
+				-webkit-transform:translateX(-200%);
+				-moz-transform:translateX(-200%);
+				-webkit-transition:transform 0.5s;
+				-moz-transition:transform 0.5s;
+			}
+
+			&.open
+			{
+				transform:translateX(0)!important;
+				transition:transform 1s;
+				-webkit-transform:translateX(0)!important;
+				-moz-transform:translateX(0)!important;
+				-webkit-transition:transform 1s;
+				-moz-transition:transform 1s;
+				background: $black;
+				z-index: 1;
+				width: 100%;
+				//height: 100%;
+			}
+
+		}
+
+		&.open
+		{		
+				transform:translateX(0)!important;
+				transition:transform 0.5s;
+				-webkit-transform:translateX(0)!important;
+				-moz-transform:translateX(0)!important;
+				-webkit-transition:transform 0.5s;
+				-moz-transition:transform 0.5s;
+				background: $black;
+				z-index: 1;
+				width: 100%;
+		}
+		
+	}
+
+
+	#top-menu
+	{
+		
+		height: auto;
+		margin: 0 10px;
+		margin-bottom: -25px;
+		max-width: 300px;
+		margin: 0;
+		margin-left: 10px;
+		padding-top:0px;
+		min-height: 267px;
+		text-align: left;
+
+		.block-search-form
+		{
+			bottom:0px;
+			left: 0px;
+			display: block;
+		}
+
+		ul#main-menu
+		{	
+			width:100%;
+			text-align:left;
+			 li
+			{
+				display: block;
+			}
+
+			li:last-child
+			{
+				position:absolute;
+				right: 0px;
+				bottom:0px;
+			}
+
+
+			a
+			{
+				font-size: 18px;
+				padding:15px 0px;
+				display: block;
+
+				&:hover
+				{
+					border-bottom: 0px;
+				}
+
+				&.fb
+				{
+					background-size:cover;
+					width:30px;
+					height: 30px;
+					margin-top: 10px;
+
+					&:hover
+					{
+						background:url('../images/fb-white.svg') no-repeat;
+						background-size:cover;
+						width:30px;
+						height: 30px;
+
+					}
+				}
+			}
+		}
+	}
+
+
+	.block-search-form
+	{
+		bottom: 20px;
+		left: 0px;
+		width:252px;
+		padding-left:0px;
+
+
+		.form-type-textfield
+		{
+			left:28px;
+		}
+		.form-submit
+		{
+			width:28px!important;
+			height:40px!important;
+			background-position: center right;
+			background-color:$gold!important;
+		}
+
+		input::-webkit-input-placeholder
+		{
+			color:$black;
+			font-size: 20px;
+		}
+
+		#edit-search-block-form--2
+		{
+			height: 40px;
+			width:210px;
+			margin: 0px;
+			padding-left:10px;
+			font-size: 20px;
+		}
+	}
+}
+
+
+@media screen and (max-width:950px)
+{
+	.page-taxonomy .content-right
+	{
+		padding-left:30px;
+	}
+
+
+	.view-banner-slider .views-row-2
+	{
+		background-image:url('../images/SarniaAntiAging-TabletPortrait-Halo.jpg'); 
+	}
+
+	.view-banner-slider .views-row-3
+	 {
+	 	background-image:url('../images/SarniaAntiAging-HeaderPortrait-Vanquish.jpg');
+	 	background-position:0%;
+	 }
+
+}
+@media screen and (max-width:870px)
+{	
+	.contact span
+	{
+		display: block;
+	}
+
+
+	.view-before-and-after-images
+	{
+		margin: 0 auto;
+	}
+	#block-block-3 h2
+	{
+		font-size: 32px;
+	}
+
+	.sidebar li.expanded ul.menu
+	{
+		display: none;
+	}
+
+	.page-taxonomy .content-right
+	{
+		width: 100%;
+		padding-left:0px;
+	}
+
+	.view-youtube-videos .views-row
+	{
+		padding-right:20px;
+		width:342px ;
+
+		iframe
+		{
+			width:342px!important;
+		}
+	}
+
+	#block-menu-menu-footer-menu--2 .content > ul.menu li
+	{
+		margin-right: 4%;
+	}
+
+
+	.view-banner-slider .views-row-4
+ 	 {
+ 	 	background-image:url('../images/SarniaAntiAging-Header-TabletPortrait.jpg');
+ 	 }
+}
+
+@media screen and (max-width:767px)
+{
+	#page-title:before, 
+	#block-block-3 h2:before, 
+	#page-title-root:before
+	{
+		left:0%;
+	}
+
+	#page-title h1, 
+	#block-block-3 h2 h1,
+	 #page-title-root h1
+	 {
+	 	width:80%;
+	 }
+
+	#page-title:after,
+	 #block-block-3 h2:after, 
+	 #page-title-root:after
+	 {
+	 	right:0%;
+	 }
+}
+
+
+@media screen and (max-width:730px)
+{	
+
+	.view-youtube-videos .views-row
+	{
+		padding-right:20px;
+		max-width:342px ;
+		margin:0 auto;
+		float: none;
+		margin-bottom: 20px;
+	}
+
+	.view-before-and-after-images 
+	.views-row .views-field
+	{
+		float: none;
+		text-align: center;
+		padding-right:0px;
+	}
+
+
+	#search-bottom
+	{
+		.block-search-form
+		{	
+			width:100%;
+			display: inline-block;
+			position: relative;
+
+				input::-webkit-input-placeholder
+			{
+				color:$black;
+				font-size: 20px;
+			}
+		}
+
+		.fb
+		{
+			display: block;
+			color: transparent;
+			position: absolute;
+			font-size: 0px;
+			right: 0;
+			background-size:cover;
+			width:40px!important;
+			height: 40px!important;
+			background:url('../images/fb-black.svg') no-repeat !important;
+		}
+
+	}
+
+	#service-region .views-row
+	{
+		float:none;
+		width:100%;
+	}
+
+	#service-region .views-row:hover a
+	{
+		padding-top:80px;
+	}
+	
+}
+
+@media screen and (max-width:650px)
+{	
+
+	.view-banner-slider .views-row-3
+	 {
+	 	background-image:url('../images/SarniaAntiAging-HeaderPhone-Vanquish.jpg');
+	 	background-position:top;
+	 }
+	.webform-component--phone-number,
+	.webform-component--city,
+	.webform-component--postal-code,
+	.webform-component--last-name,
+	.webform-component--first-name,
+	.webform-component--email,
+	.webform-component--address,
+	.webform-component--province,
+	.webform-component-select
+	{
+		float:none;
+		width:95%;
+	}
+
+	#service-region .field-content:before,
+	#service-region .field-content:after
+	{
+		margin:50px 5% 0px;
+	}
+
+	#service-region .field-content:after
+	{
+		bottom: 50px;
+	}
+
+}
+
+@media screen and (max-width:610px)
+{	
+	
+	#block-menu-menu-footer-menu--2 .content > ul.menu > li.expanded
+	{
+		width:45%;
+		padding-bottom:20px;
+	}
+
+	#block-menu-menu-footer-menu--2 .content > ul.menu > li.expanded:first-child
+	{
+		width:100%;
+	}
+	
+}
+
+@media screen and (max-width:440px)
+{	
+	#block-menu-menu-footer-menu--2 .content > ul.menu li:nth-child(3)
+	{
+		clear: none;
+	}
+
+	#banner h2
+	{
+		font-size: 32px;
+	}
+
+	.view-banner-slider .views-row-2
+	{
+		background-image:url('../images/SarniaAntiAging-HeaderPhone-Halo.jpg'); 	
+		background-position:bottom!important;
+	}
+
+	.contact span
+	{
+		font-size: 16px;
+	}
+
+	.view-banner-slider .views-row-4
+ 	 {
+ 	 	background-image:url('../images/SarniaAntiAging-Header-Phone.jpg');
+ 	 }
+
+	.inner-row .views-field
+	{
+		max-width:200px;
+		height:auto;
+		margin:0 auto;
+
+		img
+		{
+			width:100%!important;
+			height: auto!important;
+
+		}
+
+	}
+
+	.view-youtube-videos .views-row 
+	{	
+
+		width:300px;
+		
+		iframe
+		{
+			width:300px !important;
+		}
+		
+	}
+
+	.view-before-and-after-images
+	{
+		width:100%;
+	}
+
+	#page-title:before, 
+	#block-block-3 h2:before, 
+	#page-title-root:before
+	{
+		width:13%;
+	}
+
+	 #page-title:after,
+	 #block-block-3 h2:after, 
+	 #page-title-root:after
+	 {
+	 	width:13%;
+	 }
+
+	#block-menu-menu-footer-menu
+	{
+		margin: 0 auto;
+
+		.content > ul.menu li
+		{
+			margin-right:30px;
+		}
+	}
+
+	.email-add
+	{
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width:630px)
+{	
+	#block-block-3 h2
+	{
+		max-width: 300px;
+		margin: 0 auto;
+		padding-left:0px;
+		padding-right: 0px;
+
+
+		&:before,
+		&:after
+		{
+			top:60%;
+			width:25%;
+		}
+	}
+
+	#banner .views-field-body
+	{
+		padding-left: 10px;
+	}
+
+
+	.view-banner-slider .views-row-1
+	{
+		background-position:30%;
+	}
+}
+
+@media screen and (max-width:850px)
+{
+
+	#block-menu-menu-footer-menu .content > ul.menu li
+	{
+		margin-right:4%;
+	}
+}

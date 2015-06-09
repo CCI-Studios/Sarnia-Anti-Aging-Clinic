@@ -1,0 +1,24 @@
+name = Antiaging
+description = Antiaging Custom
+core = 7.x
+
+scripts[] = js/service_block.js
+scripts[] = js/images-slider.js
+scripts[] = js/banner_slider.js
+scripts[] = js/form-validation.js
+scripts[] = js/mobile-menu.js
+scripts[] = js/placeholder.min.js
+scripts[] = js/jquery.selectbox.min.js
+scripts[] = js/services-menu.js
+
+stylesheets[all][] = css/screen.css
+
+regions[navigation] = Navigation
+regions[header] = Header
+regions[banner] = banner slider
+regions[black-region] =Black Region
+regions[service-block] =Service blocks
+regions[white-region] =White region
+regions[bottom-black] =Bottom black
+regions[content] = Content
+regions[footer] = Footer
